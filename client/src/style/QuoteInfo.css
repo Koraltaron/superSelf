@@ -1,0 +1,36 @@
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+  color: #4b5ae4;
+  height: 500px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.quote-container {
+  border: 1px solid #dc2058;
+  border-radius: 30px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-container {
+  padding-bottom: 60px;
+}
+
+.quote-btn {
+  margin: 0px 20px;
+  border-radius: 17px;
+  border: 2px solid #4b5ae4;
+  padding: 7px 10px;
+  background-color: white;
+}

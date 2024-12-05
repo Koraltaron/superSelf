@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /*COLOR*/
+  --mainColor: rgb(252 253 242 / 70%);
+  --black: #303030;
+  --shadowColor: rgb(0 0 0 / 25%);
+  --secondaryColor: #4b5ae4;
+  --tertiaryColor: #dc2058;
+  /*TEXT CONFIGURATION*/
+  --general-font: "Carter One", sans-serif;
+  --button-font: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--mainColor);
+  font-family: var(--general-font);
+  font-size: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100vw;
+}
+
+button {
+  border: solid 4px var(--secondaryColor);
+  background: white;
+  cursor: pointer;
+  width: 150px;
+  height: 60px;
+  border-radius: 32px;
+  font-family: var(--button-font);
+  font-size: 24px;
+  box-shadow: 0 2px 6px var(--shadowColor);
+  transition: all 300ms ease-out;
+}
+
+button:hover {
+  background: var(--secondaryColor);
+  color: white;
+}
+
+.logo {
+  margin-top: 55px;
+  width: 443px;
+  height: 155px;
+}
+
+footer {
+  background: white;
+  border-top: solid 1px #bdbdbd;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: fixed;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  right: 0;
+  font-size: 0.8rem;
+}
+
+footer section {
+  display: flex;
+  gap: 8px;
+}
+
+footer section img {
+  width: 20px;
+  height: 18.35px;
+}
