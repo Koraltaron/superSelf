@@ -1,5 +1,7 @@
-import "./App.css";
+import "./style/globals.css";
 import { useEffect, useState } from "react";
+import logo from "/logo.png";
+import heartPink from "/pinkHeart.png";
 import type { quoteFetchDataTypes } from "./types/quote-fetch-types";
 
 function App() {
@@ -21,10 +23,20 @@ function App() {
 
   return (
     <>
+      <header>
+        <img className="logo" src={logo} alt="" />
+      </header>
       <ul>
         <li>{category}</li>
         <li>{apiQuoteData?.quote}</li>
       </ul>
+      <footer>
+        <section>
+          <p>2024 copyright</p>
+          <img src={heartPink} alt="" />
+          <p>superSelf</p>
+        </section>
+      </footer>
     </>
   );
 }
