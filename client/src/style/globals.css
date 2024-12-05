@@ -10,6 +10,7 @@
   --tertiaryColor: #dc2058;
   /*TEXT CONFIGURATION*/
   --general-font: "Carter One", sans-serif;
+  --button-font: "Montserrat", sans-serif;
 }
 
 * {
@@ -35,12 +36,21 @@ main {
 }
 
 button {
-  border: solid 2px var(--secondaryColor);
+  border: solid 4px var(--secondaryColor);
   background: white;
   cursor: pointer;
   width: 150px;
   height: 60px;
   border-radius: 32px;
+  font-family: var(--button-font);
+  font-size: 24px;
+  box-shadow: 0 2px 6px var(--shadowColor);
+  transition: all 300ms ease-out;
+}
+
+button:hover {
+  background: var(--secondaryColor);
+  color: white;
 }
 
 .logo {

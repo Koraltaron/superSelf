@@ -28,10 +28,6 @@ function App() {
       <header>
         <img className="logo" src={logo} alt="" />
       </header>
-      <ul>
-        <li>{category}</li>
-        <li>{apiQuoteData?.quote}</li>
-      </ul>
       <main>
         <Outlet />
       </main>
