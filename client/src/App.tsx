@@ -1,4 +1,5 @@
 import "./App.css";
+import { Outlet } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import "./style/globals.css";
 import { useEffect, useState } from "react";
@@ -32,6 +33,9 @@ function App() {
         <li>{category}</li>
         <li>{apiQuoteData?.quote}</li>
       </ul>
+      <main>
+        <Outlet />
+      </main>
       <HomePage />
       <footer>
         <section>
