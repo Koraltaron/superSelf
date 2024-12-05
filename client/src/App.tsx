@@ -1,6 +1,5 @@
 import "./App.css";
 import { Outlet } from "react-router-dom";
-import HomePage from "./pages/HomePage";
 import "./style/globals.css";
 import { useEffect, useState } from "react";
 import logo from "/logo.png";
@@ -30,13 +29,13 @@ function App() {
         <img className="logo" src={logo} alt="" />
       </header>
       <ul>
-        <li>{category}</li>
+        {/* <li>{category}</li> */}
         <li>{apiQuoteData?.quote}</li>
       </ul>
       <main>
         <Outlet />
       </main>
-      <HomePage />
+      {/* <HomePage /> */}
       <footer>
         <section>
           <p>2024 copyright</p>
