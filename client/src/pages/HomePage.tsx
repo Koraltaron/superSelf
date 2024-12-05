@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import KeyWordsButton from "../components/KeyWordsButton";
 import "../style/homepage.css";
+import superHero from "/superHero.png";
 
 function HomePage() {
   //   const [value, setValue] = useState('');
@@ -21,8 +22,7 @@ function HomePage() {
           type="text"
           placeholder="Enter your feeling..."
         />
-
-        <img src="" alt="Super Hero icon" className="icon-search" />
+        <img src={superHero} alt="Super Hero icon" className="icon-search" />
       </section>
       <section id="key-words-button-container">
         <KeyWordsButton />
