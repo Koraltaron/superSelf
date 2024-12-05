@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import logo from "/logo.png";
 import heartPink from "/pinkHeart.png";
 import type { quoteFetchDataTypes } from "./types/quote-fetch-types";
+import useTheme from "./utils/useTheme";
 
 function App() {
   const [apiQuoteData, setApiQuoteData] = useState<quoteFetchDataTypes>();
@@ -21,14 +22,19 @@ function App() {
         setApiQuoteData(data);
       });
   }, [url]);
+
   console.warn(apiQuoteData);
+
+  const { theme, setTheme } = useTheme();
+  console.warn(theme);
 
   return (
     <>
       <header>
         <img className="logo" src={logo} alt="" />
+        <input type="checkbox" onClick={() => setTheme(!theme)} />
       </header>
-      <main>
+      <main className={`normal ${theme && "dark"}`}>
         <Outlet />
       </main>
       <footer>

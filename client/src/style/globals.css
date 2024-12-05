@@ -84,3 +84,8 @@ footer section img {
   width: 20px;
   height: 18.35px;
 }
+
+/* Dark & light mode */
+.dark {
+  background-color: #303030;
+}
