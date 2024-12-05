@@ -1,8 +1,7 @@
 import "./style/globals.css";
+import { useEffect, useState } from "react";
 import logo from "/logo.png";
 import heartPink from "/pinkHeart.png";
-import "./App.css";
-import { useEffect, useState } from "react";
 import type { quoteFetchDataTypes } from "./types/quote-fetch-types";
 
 function App() {
