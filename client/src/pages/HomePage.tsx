@@ -1,4 +1,3 @@
-import pouet from "/vite.svg";
 import KeyWordsButton from "../components/KeyWordsButton";
 import "../style/homepage.css";
 
@@ -13,7 +12,7 @@ function HomePage() {
           placeholder="Enter your feeling..."
         />
 
-        <img src={pouet} alt="Super Hero icon" className="icon-search" />
+        <img src="" alt="Super Hero icon" className="icon-search" />
       </section>
       <section id="key-words-button-container">
         <KeyWordsButton />
