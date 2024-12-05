@@ -35,7 +35,6 @@ function App() {
       <main>
         <Outlet />
       </main>
-      {/* <HomePage /> */}
       <footer>
         <section>
           <p>2024 copyright</p>
