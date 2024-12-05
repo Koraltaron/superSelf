@@ -13,7 +13,7 @@ function HomePage() {
           placeholder="Enter your feeling..."
         />
 
-        <img alt="Super Hero icon" className="icon-search" />
+        <img src="" alt="Super Hero icon" className="icon-search" />
       </section>
       <section id="key-words-button-container">
         {Categories.map((el) => (
