@@ -1,7 +1,9 @@
+import QuoteInfo from "../components/QuoteInfo";
+
 function Quotes() {
   return (
     <>
-      <h1>quotes</h1>
+      <QuoteInfo />
     </>
   );
 }
