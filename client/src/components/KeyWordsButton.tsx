@@ -1,7 +1,9 @@
-function KeyWordsButton() {
+function KeyWordsButton({ keywordProp }: { keywordProp: string }) {
   return (
     <>
-      <button type="button">Coucou</button>
+      <button type="button" value={keywordProp}>
+        {keywordProp}
+      </button>
     </>
   );
 }

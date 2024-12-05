@@ -14,7 +14,7 @@ function App() {
     method: "GET",
     headers: { "x-api-key": `${import.meta.env.VITE_NINJA_API_KEY}` },
   };
-  const url = `https://api.api-ninjas.com/v1/quotes?category=${category}&appid=oO7a9B83jVV6xNzeZj7w5g==EMxSx5M4B64F1lpZ`;
+  const url = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
   useEffect(() => {
     fetch(url, options)
       .then((response) => response.json())
@@ -31,7 +31,6 @@ function App() {
       </header>
       <ul>
         <li>{category}</li>
-        <li>{apiQuoteData?.quote}</li>
       </ul>
       <main>
         <Outlet />
