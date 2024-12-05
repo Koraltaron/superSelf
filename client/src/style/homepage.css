@@ -6,12 +6,13 @@ h1 {
 #search-bar {
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 #search-input {
   border-radius: 15px;
-  width: 50%;
-  height: 35px;
+  min-width: 30%;
+  height: 50px;
   border: 1.5px solid #dc2058;
   margin: 15px 0;
   padding-left: 15px;
@@ -21,14 +22,28 @@ h1 {
 #key-words-button-container {
   display: flex;
   justify-content: center;
+  width: 65%;
+  margin: auto;
   gap: 32px;
   padding: 10px 20px;
 }
 
 .icon-search {
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  top: 14%;
-  right: 27%;
+  width: 80px;
+  /* height: 50px; */
+  margin-left: -70px;
+}
+
+.icon-search:hover {
+  animation: rotating 0.5s ease-out;
+  cursor: pointer;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
 }
