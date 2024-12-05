@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import KeyWordsButton from "../components/KeyWordsButton";
+import { Categories } from "../data/superHeroData";
 import "../style/homepage.css";
 import superHero from "/superHero.png";
 
@@ -25,10 +26,11 @@ function HomePage() {
         <img src={superHero} alt="Super Hero icon" className="icon-search" />
       </section>
       <section id="key-words-button-container">
-        <KeyWordsButton />
-        <KeyWordsButton />
-        <KeyWordsButton />
-        <KeyWordsButton />
+        {Categories.map((el) => (
+          <li key={el} className="keywordButton">
+            <KeyWordsButton keywordProp={el} />{" "}
+          </li>
+        ))}
       </section>
     </>
   );
