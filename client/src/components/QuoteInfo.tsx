@@ -1,14 +1,15 @@
 import "../style/QuoteInfo.css";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useOutletContext } from "react-router-dom";
 import type { quoteFetchDataTypes } from "../types/quote-fetch-types";
 
 function QuoteInfo() {
   const data = useLoaderData() as quoteFetchDataTypes[];
-
   const firstLetterCatName = data[0].category.slice(0, 1).toUpperCase();
   const catLength = data[0].category.length;
   const restOfTheName = data[0].category.slice(1, catLength);
   const categoryName = firstLetterCatName + restOfTheName;
+
+  const { srcHero }: { srcHero: string } = useOutletContext();
 
   return (
     <div className="main-container">
@@ -34,7 +35,7 @@ function QuoteInfo() {
       </div>
       <img
         className="hero-img"
-        src="https://www.pngarts.com/files/4/Gamora-PNG-Download-Image.png"
+        src={srcHero}
         alt="Gamora des gardiens de la galaxie"
       />
     </div>

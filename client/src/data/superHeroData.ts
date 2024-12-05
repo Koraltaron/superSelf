@@ -72,7 +72,7 @@ export const SuperHeroData = [
   {
     id: 6,
     heroname: "Storm",
-    url: "https://www.deviantart.com/ransie84/art/Storm-XMen-210926232",
+    url: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f919af5-ca32-4bcb-ab29-a311f4d926af/d3hkvq0-0638fde7-ecc6-4a43-994e-e054e595b8ca.jpg/v1/fit/w_800,h_655,q_70,strp/storm_xmen_by_ransie84_d3hkvq0-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU1IiwicGF0aCI6IlwvZlwvNWY5MTlhZjUtY2EzMi00YmNiLWFiMjktYTMxMWY0ZDkyNmFmXC9kM2hrdnEwLTA2MzhmZGU3LWVjYzYtNGE0My05OTRlLWUwNTRlNTk1YjhjYS5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.xX6fBySAwGUdHzg2eJPAoGG6AMxmQfeGjnF86zC6cNE",
     keyword: ["alone", "death", "fear", "anger", "failure", "change"],
   },
   {
