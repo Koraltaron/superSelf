@@ -2,9 +2,9 @@ export const SuperHeroData = [
   {
     id: 1,
     heroname: "Spider-Gwen",
-    url: "https://i.pinimg.com/736x/40/5b/e8/405be8c41173b216c9c8f608d952d922.jpg",
+    url: "https://i.etsystatic.com/22078415/r/il/03e40e/3353281783/il_570xN.3353281783_crlc.jpg",
     keyword: [
-      "hapiness",
+      "happiness",
       "love",
       "good",
       "amazing",
@@ -18,7 +18,7 @@ export const SuperHeroData = [
   {
     id: 2,
     heroname: "Wonder Woman",
-    url: "https://www.deviantart.com/https://storage.googleapis.com/pod_public/1300/119501.jpg/art/Mad-Wonder-Woman-1034661304",
+    url: "https://3238leblogdemarvelll-1278.kxcdn.com/wp-content/uploads/2017/06/wonder-woman-2017-banniere-gal-gadot-no-man-land-scaled.jpg",
     keyword: [
       "courage",
       "strength",
@@ -31,7 +31,7 @@ export const SuperHeroData = [
   {
     id: 3,
     heroname: "Iron Man",
-    url: "https://www.deviantart.com/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/69b81377-6df1-4562-821d-f771093cc41e/dfv6c3e-4c1d01a6-99f0-452e-bee7-8be065201a0c.jpg/v1/fill/w_894,h_894,q_70,strp/iron_man_by_monsterdesignz80_dfv6c3e-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5YjgxMzc3LTZkZjEtNDU2Mi04MjFkLWY3NzEwOTNjYzQxZVwvZGZ2NmMzZS00YzFkMDFhNi05OWYwLTQ1MmUtYmVlNy04YmUwNjUyMDFhMGMuanBnIiwiaGVpZ2h0IjoiPD0xOTIwIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNjliODEzNzctNmRmMS00NTYyLTgyMWQtZjc3MTA5M2NjNDFlXC9tb25zdGVyZGVzaWduejgwLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.WrxE2pSRV-5PQOSDuo_hQASHz6UC3L7sGe0HiiMvrI4/art/Iron-man-959356346",
+    url: "https://vilaingeek.com/wp-content/uploads/2024/01/marvel-iron-man-explosion-desktop-wallpaper-preview.jpeg",
     keyword: [
       "intelligence",
       "computers",
@@ -44,7 +44,7 @@ export const SuperHeroData = [
   {
     id: 4,
     heroname: "Scarlet Witch",
-    url: "https://www.https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c624a3a4-800c-48d7-83f5-681f0db2c998/defh3ce-77dbf98e-4f51-45e9-87d4-c9bdc4954ff1.jpg/v1/fill/w_894,h_894,q_70,strp/the_scarlet_witch_by_blackgraphite_defh3ce-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2M2MjRhM2E0LTgwMGMtNDhkNy04M2Y1LTY4MWYwZGIyYzk5OFwvZGVmaDNjZS03N2RiZjk4ZS00ZjUxLTQ1ZTktODdkNC1jOWJkYzQ5NTRmZjEuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.eMcJjkFnJb1CXXgJRNVAcBDipnW7mSbmKbkp47bQei4.com/blackgraphite/art/The-Scarlet-Witch-872518190",
+    url: "https://i.pinimg.com/736x/ef/29/eb/ef29ebf94a909d0756fdd590e2f61574.jpg",
     keyword: [
       "knowledge",
       "god",
@@ -78,7 +78,7 @@ export const SuperHeroData = [
   {
     id: 7,
     heroname: "Hulk",
-    url: "https://www.deviantart.com/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/69b81377-6df1-4562-821d-f771093cc41e/dfuv6hb-a7a85562-8b4e-40cf-bc87-e4692027ddd4.jpg/v1/fill/w_894,h_894,q_70,strp/incredible_hulk_by_monsterdesignz80_dfuv6hb-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5YjgxMzc3LTZkZjEtNDU2Mi04MjFkLWY3NzEwOTNjYzQxZVwvZGZ1djZoYi1hN2E4NTU2Mi04YjRlLTQwY2YtYmM4Ny1lNDY5MjAyN2RkZDQuanBnIiwiaGVpZ2h0IjoiPD0xOTIwIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNjliODEzNzctNmRmMS00NTYyLTgyMWQtZjc3MTA5M2NjNDFlXC9tb25zdGVyZGVzaWduejgwLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.3Fs1Y2ZOR19spRcT8GedKjLyNfFI8WMBYIAVjiCFKBg/art/Incredible-Hulk-958835855",
+    url: "https://www.komar.de/media/catalog/product/cache/6/image/9df78eab33525d08d6e5fb8d27136e95/I/A/IADX5-060.jpg",
     keyword: ["health", "medical", "fitness", "food"],
   },
   {
@@ -90,7 +90,7 @@ export const SuperHeroData = [
   {
     id: 9,
     heroname: "Captain Marvel",
-    url: "https://www.deviantart.com/monsterdesignz80/art/Captain-Marvel-960132776https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/69b81377-6df1-4562-821d-f771093cc41e/dfvmz6w-2644b2bd-7821-43d1-ac66-721a7e642aee.jpg/v1/fill/w_894,h_894,q_70,strp/captain_marvel_by_monsterdesignz80_dfvmz6w-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5YjgxMzc3LTZkZjEtNDU2Mi04MjFkLWY3NzEwOTNjYzQxZVwvZGZ2bXo2dy0yNjQ0YjJiZC03ODIxLTQzZDEtYWM2Ni03MjFhN2U2NDJhZWUuanBnIiwiaGVpZ2h0IjoiPD0xOTIwIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvNjliODEzNzctNmRmMS00NTYyLTgyMWQtZjc3MTA5M2NjNDFlXC9tb25zdGVyZGVzaWduejgwLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.x35_jttfi3-YYu_o5d6A3PB5QqBcEnbyavanSCDSOC0",
+    url: "https://www.superpouvoir.com/wp-content/uploads/2018/11/CaptainMarvel_conceptart2.jpg",
     keyword: ["environmental", "equality", "legal", "government", "freedom"],
   },
   {

@@ -1,6 +1,5 @@
 import { NavLink, useOutletContext } from "react-router-dom";
 import { SuperHeroData } from "../data/superHeroData";
-
 function KeyWordsButton({ keywordProp }: { keywordProp: string }) {
   const { setSrcHero }: { setSrcHero: (url: string) => void } =
     useOutletContext();
