@@ -9,6 +9,7 @@ import useTheme from "./utils/useTheme";
 
 function App() {
   const [apiQuoteData, setApiQuoteData] = useState<quoteFetchDataTypes>();
+  const [srcHero, setSrcHero] = useState<string>("");
   const category = "architecture";
   const options = {
     method: "GET",
@@ -34,7 +35,7 @@ function App() {
         <img className="logo" src={logo} alt="" />
       </header>
       <main className={`default-theme ${theme && "dark-theme"}`}>
-        <Outlet />
+        <Outlet context={{ srcHero, setSrcHero }} />
       </main>
       <footer>
         <section>
