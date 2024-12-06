@@ -67,13 +67,17 @@ function QuoteInfo() {
           >
             More hearts !
           </button>
+          </div>
         </div>
-      </div>
-      <img
+        <div>
+          <img
         className="hero-img"
         src={srcHero}
         alt="Gamora des gardiens de la galaxie"
       />
+      
+        </div>
+      
     </div>
   );
 }
