@@ -23,7 +23,6 @@ body {
   background: var(--mainColor);
   font-family: var(--general-font);
   font-size: 1rem;
-  padding-bottom: 86px;
 }
 
 header {
@@ -40,7 +39,6 @@ button {
   border: solid 4px var(--secondaryColor);
   background: white;
   cursor: pointer;
-  /* width: 150px; */
   height: 60px;
   border-radius: 32px;
   font-family: var(--button-font);
@@ -65,10 +63,6 @@ footer {
   background: white;
   border-top: solid 1px #bdbdbd;
   height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
   position: fixed;
   left: 0;
   top: auto;
@@ -85,4 +79,14 @@ footer section {
 footer section img {
   width: 20px;
   height: 18.35px;
+}
+h3 {
+  width: 50%;
+}
+
+/* Dark & light mode */
+
+.dark-theme {
+  background-color: #303030;
+  color: var(--mainColor);
 }
