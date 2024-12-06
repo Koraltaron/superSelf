@@ -23,7 +23,6 @@ body {
   background: var(--mainColor);
   font-family: var(--general-font);
   font-size: 1rem;
-  padding-bottom: 86px;
 }
 
 header {
