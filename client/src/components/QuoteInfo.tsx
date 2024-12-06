@@ -1,4 +1,5 @@
 import "../style/QuoteInfo.css";
+import { useEffect } from "react";
 import { useLoaderData, useNavigate, useOutletContext } from "react-router-dom";
 import type { quoteFetchDataTypes } from "../types/quote-fetch-types";
 
@@ -13,8 +14,26 @@ function QuoteInfo() {
 
   const navigate = useNavigate();
 
+  useEffect(() => {
+    jsConfetti.addConfetti({
+      emojis: ["💙", "💜", "💘", "💗", "⚡", "🌈"],
+      emojiSize: 50,
+      confettiNumber: 50,
+    });
+  }, []);
+
   const handleClickNavigate = () => {
     navigate("/");
+  };
+
+  // @ts-ignore
+  const jsConfetti = new JSConfetti();
+  const giveMeMoreHearts = () => {
+    jsConfetti.addConfetti({
+      emojis: ["💙", "💜", "💘", "💗", "⚡", "🌈"],
+      emojiSize: 50,
+      confettiNumber: 50,
+    });
   };
 
   return (
@@ -38,7 +57,11 @@ function QuoteInfo() {
           >
             New feeling ?
           </button>
-          <button type="button" className="quote-btn">
+          <button
+            type="button"
+            className="quote-btn"
+            onClick={giveMeMoreHearts}
+          >
             More hearts !
           </button>
         </div>
