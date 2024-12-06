@@ -69,11 +69,7 @@ function QuoteInfo() {
           </button>
         </div>
       </div>
-      <img
-        className="hero-img"
-        src={srcHero}
-        alt="Gamora des gardiens de la galaxie"
-      />
+      <img className="hero-img" src={srcHero} alt="" />
     </div>
   );
 }
