@@ -43,11 +43,9 @@
 .quote-btn {
   margin: 0px 30px;
   border-radius: 17px;
-  border: 2px solid #4b5ae4; 
+  border: 2px solid #4b5ae4;
   background-color: white;
 }
-
-
 
 blockquote p {
   padding: 30px;
@@ -58,19 +56,18 @@ blockquote p {
   width: 400px;
 }
 
-@media  (max-width: 1000px) {
+@media (max-width: 1000px) {
   .main-container {
     flex-direction: column-reverse;
     gap: 10px;
     width: 100px;
     margin: auto;
     padding-left: 40px;
-    
   }
 
   .quote-container {
     width: 350px;
-  } 
+  }
 
   blockquote p {
     /* padding: 30px; */
@@ -81,6 +78,4 @@ blockquote p {
     padding-top: 24px;
     width: 200px;
   }
-
-
 }
