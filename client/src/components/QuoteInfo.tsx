@@ -17,7 +17,7 @@ function QuoteInfo() {
         <div className="quote-container">
           <h3>{categoryName}</h3>
           <blockquote>
-            <p>{data[0].quote}</p>
+            <p>"{data[0].quote}"</p>
             <cite>
               <i>{data[0].author}</i>
             </cite>
@@ -30,13 +30,17 @@ function QuoteInfo() {
           <button type="button" className="quote-btn">
             More hearts !
           </button>
+          </div>
         </div>
-      </div>
-      <img
+        <div>
+          <img
         className="hero-img"
         src="https://www.pngarts.com/files/4/Gamora-PNG-Download-Image.png"
         alt="Gamora des gardiens de la galaxie"
       />
+      
+        </div>
+      
     </div>
   );
 }
