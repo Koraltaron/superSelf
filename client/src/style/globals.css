@@ -39,7 +39,6 @@ button {
   border: solid 4px var(--secondaryColor);
   background: white;
   cursor: pointer;
-  /* width: 150px; */
   height: 60px;
   border-radius: 32px;
   font-family: var(--button-font);
@@ -81,9 +80,13 @@ footer section img {
   width: 20px;
   height: 18.35px;
 }
+h3 {
+  width: 50%;
+}
 
 /* Dark & light mode */
 
 .dark-theme {
   background-color: #303030;
+  color: var(--mainColor);
 }
