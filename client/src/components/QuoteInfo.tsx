@@ -1,5 +1,5 @@
 import "../style/QuoteInfo.css";
-import { useLoaderData, useOutletContext } from "react-router-dom";
+import { useLoaderData, useNavigate, useOutletContext } from "react-router-dom";
 import type { quoteFetchDataTypes } from "../types/quote-fetch-types";
 
 function QuoteInfo() {
@@ -10,6 +10,12 @@ function QuoteInfo() {
   const categoryName = firstLetterCatName + restOfTheName;
 
   const { srcHero }: { srcHero: string } = useOutletContext();
+
+  const navigate = useNavigate();
+
+  const handleClickNavigate = () => {
+    navigate("/");
+  };
 
   return (
     <div className="main-container">
@@ -25,7 +31,11 @@ function QuoteInfo() {
           </blockquote>
         </div>
         <div className="btn-container">
-          <button type="button" className="quote-btn">
+          <button
+            type="button"
+            className="quote-btn"
+            onClick={handleClickNavigate}
+          >
             New feeling ?
           </button>
           <button type="button" className="quote-btn">
