@@ -8,6 +8,7 @@ import type { quoteFetchDataTypes } from "./types/quote-fetch-types";
 
 function App() {
   const [apiQuoteData, setApiQuoteData] = useState<quoteFetchDataTypes>();
+  const [srcHero, setSrcHero] = useState<string>("");
   const category = "architecture";
   const options = {
     method: "GET",
@@ -29,7 +30,7 @@ function App() {
         <img className="logo" src={logo} alt="" />
       </header>
       <main>
-        <Outlet />
+        <Outlet context={{ srcHero, setSrcHero }} />
       </main>
       <footer>
         <section>
