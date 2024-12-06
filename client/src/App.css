@@ -59,8 +59,9 @@ input:checked + .slider:before {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-beetween;
   flex-direction: row;
+  gap: 50px;
 }
 
 .sun {

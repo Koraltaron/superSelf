@@ -72,6 +72,7 @@ footer {
 }
 
 footer section {
+  padding-left: 15px;
   display: flex;
   gap: 8px;
 }
