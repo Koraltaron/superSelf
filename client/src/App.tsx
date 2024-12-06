@@ -5,7 +5,6 @@ import { useState } from "react";
 import logo from "/logo.png";
 import heartPink from "/pinkHeart.png";
 import useTheme from "./utils/useTheme";
- 
 
 function App() {
   const [srcHero, setSrcHero] = useState<string>("");
