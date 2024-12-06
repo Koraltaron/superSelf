@@ -30,11 +30,10 @@ function App() {
 
   return (
     <>
-      <header>
+      <header className={`${theme && "dark-theme"}`}>
         <img className="logo" src={logo} alt="" />
-        <input type="checkbox" onClick={() => setTheme(!theme)} />
       </header>
-      <main className={`normal ${theme && "dark"}`}>
+      <main className={`default-theme ${theme && "dark-theme"}`}>
         <Outlet />
       </main>
       <footer>
@@ -43,6 +42,12 @@ function App() {
           <img src={heartPink} alt="" />
           <p>superSelf</p>
         </section>
+        <label className="switch">
+          <p className="sun">☼</p>
+          <input type="checkbox" onClick={() => setTheme(!theme)} />
+          <span className="slider round" />
+          <p className="moon">☽</p>
+        </label>
       </footer>
     </>
   );
