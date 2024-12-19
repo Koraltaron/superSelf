@@ -32,7 +32,7 @@ Mobile version :
 ![image](https://github.com/user-attachments/assets/8287271e-881f-428c-ab75-09d68d1c2b52)
 
 Project team members : 
-- <a href="https://emily-ly-san.github.io/allmyprojects/">Emilie De Duyer<img src="https://avatars.githubusercontent.com/u/150048527?v=4" alt="Emily's profile"/></a>
+- <a href="https://emily-ly-san.github.io/allmyprojects/">Emilie De Duyer</a>
 
 - <a href="https://github.com/Ben5978lab">Benjamin Rose</a>
 
