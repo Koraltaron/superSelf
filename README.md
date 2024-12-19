@@ -6,10 +6,18 @@ Goal : the user can select a word that represents his/her mood/feeling/etc from 
 Once he/her click, a second page show a corresponding reference which is linked with a super hero picture. The user can therefore choose another keywords.
 
 Technologies : 
-- ReactJS (loader, context, useEffect, useState, fetch from Ninja Quote API, map and filter methods)
+- ReactJS
 - TypeScript
 - HTML and CSS
 - NodeJS
+
+ReactJS features implemented : 
+- loader,
+- context,
+- hooks (useEffect, useState),
+- JS table methods (filter, maps).
+
+Fetched API : <a href ="https://www.api-ninjas.com/api/quotes">Ninja Quote API</a>
 
 Screenshots :
 
