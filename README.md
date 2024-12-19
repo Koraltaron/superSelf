@@ -32,14 +32,10 @@ Mobile version :
 ![image](https://github.com/user-attachments/assets/8287271e-881f-428c-ab75-09d68d1c2b52)
 
 Project team members : 
-- Emilie De Duyer :
-Linkedin : linkedin.com/in/emilie-de-duyver
-GitHub : https://emily-ly-san.github.io/allmyprojects/ 
+- <a href="https://emily-ly-san.github.io/allmyprojects/">Emilie De Duyer<img src="https://avatars.githubusercontent.com/u/150048527?v=4" alt="Emily's profile"/></a>
 
-- Benjamin Rose
+- <a href="https://github.com/Ben5978lab">Benjamin Rose</a>
 
-- Cyrus Weir :
-Linkedin : linkedin.com/in/cyrus-weir
+- <a href="https://github.com/CyrusWeir">Cyrus Weir</a>
 
-- Alice Pougeard :
-Linkedin : linkedin.com/in/alice-pougeard-682824236
+- <a href="https://github.com/alicepgrd">Alice Pougeard</a>
